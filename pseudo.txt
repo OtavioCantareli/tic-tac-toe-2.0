@@ -1,0 +1,20 @@
+Game:
+  greet players
+  ask each player name
+  display board
+  player choose space:
+    proceed if space is empty
+    display error if space is not empty and display board
+  end game if either player wins or in case of draw
+
+Win:
+  check if either player has 3 consecutive spaces, (horizontally, vertically, diagonally)
+
+Draw:
+  check if above is false and no spaces left on board
+
+Player:
+  store name
+
+Board:
+  store 3x3 spaces
