@@ -1,9 +1,10 @@
 class Player
-  attr_reader :name
+  attr_reader :name, :marker
 
   @@instances = 0
-  def initialize(name)
+  def initialize(name, marker)
     @name = name
+    @marker = marker
     @@instances += 1
   end
 
